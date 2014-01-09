@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: #7e0021;
+}
+h2 {
+}
+h3 {
+  font-weight: lighter;
+  margin-bottom: 3px;
+}
+table {
+}
+th {
+  background-color: #7e0021;
+  color: white;
+}
+td, th {
+  border: dotted 1px black;
+  padding: 5px;
+  margin: 0;
+  min-width: 120px;
+}
+div.content {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+  margin: 10px;
+}
+div.nav_links {
+  margin-left: 10px;
+  float: left;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+}
+div.nav_links a:link, div.nav_links a:visited {
+  text-decoration: none;
+  color: #7e0021;
+  padding: 5px;
+}
+div.main_menu {
+  width: 100%;
+  text-align: right;
+  padding: 10px 0;
+  margin-bottom:10px;
+  float: right;
+}
